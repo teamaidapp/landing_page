@@ -9,11 +9,15 @@ body {
 h1 {
   font-weight: 100;
   font-size: 27pt;
-  color: #e43;
+  color: #000;
 }
 
 p {
   font-weight: 300;
+}
+
+svg {
+    filter:  invert(0%) sepia(100%) saturate(7434%) hue-rotate(211deg) brightness(115%) contrast(88%);
 }
 
 .warning-content {
@@ -24,3 +28,9 @@ p {
   text-align: center;
   margin: 0;
 }
+
+.warning-content img{
+    width: 100px;
+}
+
+
